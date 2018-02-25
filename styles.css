@@ -17,6 +17,97 @@ html, body {
   font-size: 16px;
 }
 
+.demo {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* original styles */
+
+p, .no-highlight {
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.no-highlight {
+  font-family: Helvetica, sans-serif;
+  /*   background-color: white; */
+}
+
+/* original styles */
+
+.authors {
+  margin-left: 100px;
+}
+
+.quote {
+  padding: 20px;
+}
+
+/* pseudo stlyes */
+
+.head-txt {
+  font-family: georgia, serif;
+  font-size: 2em;
+}
+
+.active {
+  text-transform: uppercase;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* style to fade disable button */
+
+button:disabled {
+  opacity: .5;
+}
+
+/* end pseudo styles */
+
+/* new styles */
+
+.somePadding {
+  padding: 20px;
+  margin-left: 250px;
+}
+
+.someStyling {
+  color: blue;
+}
+
+.highlight {
+  background-color: yellow;
+  width:
+}
+
+img {
+  opacity: .25;
+}
+
+.addBorder {
+  border-style: solid;
+  border-color: red;
+}
+
+.newDiv {
+  margin: 5px;
+  padding: 30px;
+  width: 600px;
+  height: 400px;
+  background-color: gray;
+}
+
+/* img-underlay {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/153746/hold-hands.jpg);
+  margin-top: 10px;
+    margin-left: 20px;
+  opacity: .8;
+} */
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
